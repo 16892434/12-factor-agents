@@ -327,10 +327,6 @@ curl -X POST http://localhost:3000/thread \
 
 Run the tests:
 
-```bash
-npx jest src/server.test.ts
-```
-
 ```
 git add . && git commit -m "add api endpoints" && git show HEAD --color=always | cat
 ```
