@@ -203,7 +203,7 @@ We can test the `request_more_information` intent by sending the llm a
 garbled message.
 
 ```
-npx tsx src/index.ts 'can you multiply 3 and FD*(#F&& ?'
+npx tsx src/index.ts 'can you multiply 3 and FD*(#F&x& ?'
 ```
 
 lets update our cli loop to ask the human for input if the agent returns a `request_more_information` intent
