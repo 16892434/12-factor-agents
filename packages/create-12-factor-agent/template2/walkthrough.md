@@ -189,8 +189,6 @@ git add . && git commit -m "add tests to agent.baml" && git show HEAD --color=al
 
 ### chapter 5 - multiple human tools
 
-cp statements 
-
 ```
 cp walkthrough/05-agent.baml baml_src/agent.baml
 ```
