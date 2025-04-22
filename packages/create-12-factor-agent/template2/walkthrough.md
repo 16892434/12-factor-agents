@@ -358,7 +358,16 @@ curl -X POST 'http://localhost:3000/thread/{thread_id}/response' \
   -d '{"message":"lets use 5 instead of xyz"}'
 ```
 
-### chapter N - launching from email
+### chapter 10 - adding human approval
+
+```
+cp walkthrough/10-server.ts src/server.ts
+cp walkthrough/10-agent.ts src/agent.ts
+```
+
+
+
+
 
 
 ### cleaning up
