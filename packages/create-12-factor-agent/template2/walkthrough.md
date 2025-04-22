@@ -358,14 +358,6 @@ curl -X POST 'http://localhost:3000/thread/{thread_id}/response' \
   -d '{"message":"lets use 5 instead of xyz"}'
 ```
 
-Run the tests:
-
-
-### chapter N - adding api endpoints server
-
-### chapter N - making the server asynchronous
-
-
 ### chapter N - launching from email
 
 
@@ -379,7 +371,3 @@ rm -r baml_src
 ```
 git add . && git commit -m "clean up" && git show HEAD --color=always | cat
 ```
-
-## Todos
-- fix up the reasoning prompt I can't get it to think out loud
--
